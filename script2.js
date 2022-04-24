@@ -1,5 +1,4 @@
-var companyName;
-companyName = "Hello"
+
 
 
 
@@ -16,8 +15,8 @@ function readTextFile(file, callback) {
 }
 
 //usage:
-readTextFile("hellomd.json", function(text){
-    var data3 = JSON.parse(text);
+readTextFile("data.json", function(text){
+    var data = JSON.parse(text);
     
     
     const siliconScore = ((0.1)*data.one + (0.2)*data.two + (0.4)*data.three + (0.2)*data.four + (0.1)*data.five)*1.4;
@@ -26,7 +25,7 @@ readTextFile("hellomd.json", function(text){
     // para3.style.color = "lightblue";
     // para3.innerHTML("Valuation");
     // wyre.appendChild(para3);
-    if(data.company == "HelloMD"){
+    if(data.company == "hellomd"){
     const para = document.createElement("h4");
     const para2 = document.createElement("h4");
     const b = document.createElement("br");

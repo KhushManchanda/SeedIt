@@ -13,13 +13,6 @@ jQuery(document).ready(function($) {
 
     firstImage.css('background-image', 'url(' + getImage + ')');
     secondImage.css('background-image', 'url(' + getImage2 + ')');
-    
+  }
 
-    
-
-    
-
-
-
-
-};
+});
